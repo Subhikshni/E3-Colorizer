@@ -1,12 +1,6 @@
-# E3Colorizer
-
-Certainly! A well-crafted README file is crucial for effectively communicating your project to potential users, collaborators, and contributors. Below is a detailed README file template for your "E3 Colorizer" project:
-
----
-
 # E3 Colorizer: Enhancing Emotions, Eras, and Enhanced Colorization
 
-![E3 Colorizer Logo](link-to-logo.png)
+![E3 Colorizer Logo](https://github.com/Subhikshni/E3-Colorizer/blob/main/images/report.png)
 
 ## Overview
 
@@ -74,7 +68,7 @@ The "E3 Colorizer" system employs a fusion of deep learning techniques, emotion 
 ### Prerequisites
 
 - Python 3.x
-- Dependencies (List them and how to install)
+- Dependencies 
 
 ### Installation
 
@@ -90,6 +84,22 @@ The "E3 Colorizer" system employs a fusion of deep learning techniques, emotion 
    ```bash
    pip install -r requirements.txt
    ```
+
+## Required Model Files
+
+To utilize the "E3 Colorizer" project, you need to download the following model files and place them in the specified directories:
+
+1. **`colorization_deploy_v2.prototxt`**
+
+   - *Description:* This file contains the architecture or structure of the neural network used for image colorization.
+
+2. **`coloriztion_release_v2.caffemodel`**
+
+   - *Description:* This file contains the pre-trained weights of the colorization neural network.
+
+3. **`pts_in_hull.npy`**
+
+   - *Description:* This file contains the cluster centers used in the colorization process.
 
 ## Contact
 
